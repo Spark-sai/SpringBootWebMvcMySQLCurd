@@ -1,4 +1,4 @@
-package in.nareshit.raghu.service.impl;
+package com.example.service.impl;
 
 import java.util.Collections;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import in.nareshit.raghu.model.Product;
-import in.nareshit.raghu.repo.ProductRepository;
-import in.nareshit.raghu.service.IProductService;
+import com.example.model.Product;
+import com.example.repo.ProductRepository;
+import com.example.service.IProductService;
 
 @Service // cal + Oper + Sorting+Tx
 public class ProductServiceImpl 

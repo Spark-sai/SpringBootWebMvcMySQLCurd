@@ -1,4 +1,4 @@
-package in.nareshit.raghu.controller;
+package com.example.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import in.nareshit.raghu.model.Product;
-import in.nareshit.raghu.service.IProductService;
+import com.example.model.Product;
+import com.example.service.IProductService;
 
 @Controller
 @RequestMapping("/product")

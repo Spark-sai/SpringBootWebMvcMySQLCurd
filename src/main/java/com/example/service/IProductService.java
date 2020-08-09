@@ -1,8 +1,8 @@
-package in.nareshit.raghu.service;
+package com.example.service;
 
 import java.util.List;
 
-import in.nareshit.raghu.model.Product;
+import com.example.model.Product;
 
 public interface IProductService {
 

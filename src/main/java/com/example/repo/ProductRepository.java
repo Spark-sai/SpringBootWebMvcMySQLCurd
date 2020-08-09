@@ -1,8 +1,8 @@
-package in.nareshit.raghu.repo;
+package com.example.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import in.nareshit.raghu.model.Product;
+import com.example.model.Product;
 
 public interface ProductRepository 
 	extends JpaRepository<Product, Integer>
